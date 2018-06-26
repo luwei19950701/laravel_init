@@ -12,10 +12,8 @@ use Illuminate\Http\Request;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
-
 // API版本分组
 Route::group(['prefix' => 'v1'], function () {
-
     // 模块分组
     Route::group(['prefix' => 'auth'], function () {
         // 创建access token

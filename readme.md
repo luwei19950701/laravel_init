@@ -22,13 +22,13 @@
 composer install
 
 # 执行一些表的migrate
-php artisian migrate
+php artsian migrate
 
 # passport安装密钥
-php artisian passport:keys
+php artsian passport:keys
 
-# passport 生成有固定命名的oauth client
-php artisian passport:client --password
+# passport 生成有固定命名的oauth client(注意填上env里对应的clientname)
+php artsian passport:client --password
 
 ```
 
