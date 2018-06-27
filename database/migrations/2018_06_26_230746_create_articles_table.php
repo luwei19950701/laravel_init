@@ -22,7 +22,7 @@ class CreateArticlesTable extends Migration
             $table->string('sub_title');
             $table->text('content');
             $table->timestamps();
-            $table->timestamp('published_at')->index();
+            $table->timestamp('published_at')->default(\Carbon\Carbon::now())->index();
         });
     }
 

@@ -34,6 +34,16 @@ Route::group(['prefix' => 'v1'], function () {
             });
         });
     });
+
+    //文章分类
+    Route::group(['prefix'=>'category'], function(){
+        Route::post('store','CategoryController@store');
+    });
+    //文章
+    Route::group(['prefix'=>'article'], function(){
+        Route::get('/','ArticleController@index');
+        Route::post('store','ArticleController@store');
+    });
 });
 
 
