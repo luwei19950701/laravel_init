@@ -13,6 +13,7 @@ use Illuminate\Http\Request;
 |
 */
 // API版本分组
+
 Route::group(['prefix' => 'v1'], function () {
     // 模块分组
     Route::group(['prefix' => 'auth'], function () {
@@ -38,6 +39,7 @@ Route::group(['prefix' => 'v1'], function () {
     //文章分类
     Route::group(['prefix'=>'category'], function(){
         Route::post('store','CategoryController@store');
+        Route::get('curl','CategoryController@curl');
     });
     //文章
     Route::group(['prefix'=>'article'], function(){
