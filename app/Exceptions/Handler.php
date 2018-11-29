@@ -2,7 +2,7 @@
 
 namespace App\Exceptions;
 
-use EcareYu\Services\HandleService as Handle;
+use Smile\Services\HandleService as Handle;
 use Exception;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 
