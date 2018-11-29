@@ -1,6 +1,6 @@
 <?php
 
-namespace EcareYu\Exceptions;
+namespace Smile\Exceptions;
 
 use Exception;
 use Throwable;

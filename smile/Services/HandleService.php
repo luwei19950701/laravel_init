@@ -6,10 +6,10 @@
  * Time: 16:51
  */
 
-namespace EcareYu\Services;
+namespace Smile\Services;
 
-use EcareYu\Exceptions\ApiException;
-use EcareYu\Services\UtilService as Util;
+use Smile\Exceptions\ApiException;
+use Smile\Services\UtilService as Util;
 use Illuminate\Auth\AuthenticationException;
 use Illuminate\Validation\Validator;
 use Exception;

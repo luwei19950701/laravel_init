@@ -6,9 +6,9 @@
  * Time: 16:52
  */
 
-namespace EcareYu\Services;
+namespace Smile\Services;
 
-use EcareYu\Exceptions\ApiException;
+use Smile\Exceptions\ApiException;
 
 class UtilService
 {
